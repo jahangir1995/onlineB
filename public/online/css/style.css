@@ -1,0 +1,157 @@
+
+.text-light a{
+	text-decoration: none;
+	color: white;
+}
+.text-light a:hover{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+.card a{
+	text-decoration: none;
+	color: #000;
+}
+.media-body a{
+	text-decoration: none;
+	color: #000;
+}
+.card a:hover{
+	text-decoration: none;
+	color: #888;
+}
+.media-body a:hover{
+	text-decoration: none;
+	color: #888;
+}
+.bg-black{
+	background-color: rgba(14,14,14,1.00)
+}
+.carousel-caption{
+	top: 200px;
+}
+.bg-orange{
+	background-color: #f0644f;
+	color: aliceblue;
+	font-weight: 600;
+	text-align:center;
+}
+.m-right{
+	border: 2px solid  #f0644f;
+	border-right: 2px solid white;
+
+}
+.underline{
+	width: 150px;
+	height: 2px;
+	background-color: orangered;
+}
+.bg-light-gray{
+	background-color: rgba(111,111,111,0.09);
+}
+.media img{
+	max-width: 120px;
+	
+}
+.underline-green{
+	width: 170px;
+	height: 2px;
+	background-color: lawngreen;
+}
+.card-body{text-align:center;}
+
+
+.navbar{
+	padding: 0px;
+}
+.navbar-nav li{
+	z-index: 1;
+}
+.navbar-nav li a{
+	font-size: 17px;
+	padding: 15px 40px!important;
+}
+.navbar-nav li a:hover{
+	border-left: 2px solid #ff4f81;
+	border-right:2px solid #ff4f81;
+	transition: 0.2s all;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #000;
+}
+.carousel-item{
+	height:50vh;
+}
+.img-box{
+	width: 500px;
+	position: relative;
+}
+.pic-one{
+	width: 100%;
+	position: absolute;
+	top: 25px;
+}
+.pic-two{
+	width: 175px;
+    position: absolute;
+    top: 230px;
+    left: 10px;
+	
+}
+.pic-three{
+	width: 150px;
+	position: absolute;
+	left: 350px;
+	top: 250px;
+	
+}
+.slider-one{
+	background: #b0c6f5
+}
+.carousel-item h1{
+	margin:50px 0 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.carousel-item p{
+	margin:20px;
+	color: #fff;
+	font-size: 13px;
+}
+.profilebody{
+	box-shadow: 1px 1px 4px 2px rgb(142,147,152);
+    background: white;
+    margin: 28px 3px;
+    width: 100%;
+
+}
+#title{
+	text-align: center;
+	text-decoration: underline dotted;
+	padding:6px 0px;
+}
+
+@media(max-width: 1200px){
+	.navbar-nav li{
+	font-size: 15px;
+}
+
+}
+@media(max-width: 992px){
+	.navbar-toggle {
+	margin: 10px 0px 10px 30px;
+	background-color: #fff;
+	border-color: #ff4f81;
+}
+.navbar-light{
+	background-color: #fff;
+}
+.navbar-nav li a{
+	text-align: center;
+	background-color: aliceblue;
+}
+.navbar-nav li a:hover{
+	background-color: #ff4f81;
+}
+}
